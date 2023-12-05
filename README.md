@@ -27,13 +27,16 @@ Welcome to the Medical Diagnosis Machine Learning! This project aims to provide 
 Before using this tool, make sure you have the following installed:
 
 - Python (version >= 3.6)
+-  numpy
+-  andas
+-  matplotlib
 
 ### Installation
 
 1. Install dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt 
    ```
 
 ## Usage
@@ -54,6 +57,9 @@ The input data should be a collection of medical images in a supported format (e
 ### Output
 
 The prediction script will output the diagnosis results for each input image, indicating the likelihood of specific medical conditions.
+
+## Data Preparation
+
 
 ## Model Training
 
@@ -82,6 +88,10 @@ Evaluate the model's performance using the evaluation script:
 ```bash
 python evaluate.py --model_path /path/to/saved_model --test_data /path/to/test_data
 ```
+## Reference
+
+Article
+https://ieeexplore.ieee.org/document/9170733
 
 ## Contributing
 
