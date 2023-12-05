@@ -14,6 +14,7 @@ Welcome to the Medical Diagnosis Machine Learning! This project aims to provide 
 2. [Usage](#usage)
    - [Input](#input)
    - [Output](#output)
+4. [Data Preperation](#model-training)
 3. [Model Training](#model-training)
    - [Dataset](#dataset)
    - [Training](#training)
@@ -60,6 +61,30 @@ The prediction script will output the diagnosis results for each input image, in
 
 ## Data Preparation
 
+### 1. Loading the Raw Dataset:
+The first step in any data science project is to load the raw dataset into a format suitable for analysis. This allows us to examine the structure and content of the data.
+Loading the raw dataset involves using appropriate data-loading functions provided by libraries like pandas in Python. This step enables us to read data from various sources such as CSV files, Excel spreadsheets, databases, or other formats. Once loaded, the dataset is typically stored in a DataFrame or a similar data structure, making it easy to manipulate and analyze.
+
+### 2. Exploratory Data Analysis (EDA):
+
+Exploratory Data Analysis (EDA) is the process of visually and statistically summarizing the main characteristics of a dataset. It helps us understand the underlying patterns, relationships, and potential issues within the data.
+We create visualizations and summary statistics during EDA to gain insights into the dataset. Common EDA tasks include visualizing the distribution of target classes, examining correlations between features, detecting outliers, and understanding the central tendencies of numerical variables. EDA is crucial for informing subsequent steps in the data preparation process.
+
+### 3. Data Cleaning:
+Data cleaning involves handling missing values, duplicates, and any inconsistencies in the dataset. The goal is to ensure that the data is in a suitable form for analysis and modeling.
+During this step, we identify and address missing values by imputing them or removing the corresponding rows or columns. Duplicates are removed to avoid redundancy in the dataset. Other cleaning tasks may include handling outliers and ensuring data integrity. The cleaned dataset provides a more accurate representation of the underlying phenomena.
+
+### 4. Feature Scaling:
+Feature scaling aims to standardize the range of independent variables or features of the dataset. This is important because machine learning models often perform better when features are on a similar scale.
+Scaling is necessary when the features in the dataset have different ranges. Common scaling methods include Standard Scaling (Z-score normalization) and Min-Max Scaling. These techniques ensure that each feature contributes proportionally to the model's learning process, preventing some features from dominating due to their larger magnitudes.
+
+### 5. Splitting Data into Features and Targets:
+Separating the dataset into features and the target variable is a crucial step before training a machine learning model. Features are the independent variables used for prediction, while the target is the variable to be predicted.
+The features (X) typically include all columns in the dataset except the target variable, while the target (y) is the specific variable we want the model to predict. This separation allows us to train the model on the features and evaluate its performance based on its ability to predict the target.
+
+### 6. Train-Test Split:
+Dividing the dataset into training and testing sets is essential to assess the model's generalization performance on unseen data.
+The dataset is split into two subsets: the training set, used to train the machine learning model, and the testing set, reserved for evaluating the model's performance. The split ratio is often determined based on best practices, such as an 80-20 or 70-30 split. This ensures that the model is tested on data it has not seen during training, providing a more realistic assessment of its predictive capabilities.
 
 ## Model Training
 
@@ -95,4 +120,4 @@ https://ieeexplore.ieee.org/document/9170733
 
 ## Contributing
 
-If you'd like to contribute to this project by Chandanakumar and Kusuma
+It you'd like to contribute to this project by Chandanakumar and Kusuma
