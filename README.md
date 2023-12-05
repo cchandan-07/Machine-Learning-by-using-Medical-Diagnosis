@@ -84,7 +84,7 @@ The features (X) typically include all columns in the dataset except the target 
 
 ### 6. Train-Test Split:
 Dividing the dataset into training and testing sets is essential to assess the model's generalization performance on unseen data.
-The dataset is split into two subsets: the training set, used to train the machine learning model, and the testing set, reserved for evaluating the model's performance. The split ratio is often determined based on best practices, such as an 80-20 or 70-30 split. This ensures that the model is tested on data it has not seen during training, providing a more realistic assessment of its predictive capabilities.
+The dataset is split into two subsets: the training set, used to train the machine learning model, and the testing set, reserved for evaluating the model's performance. The split ratio is often determined based on best practices. This ensures that the model is tested on data it has not seen during training, providing a more realistic assessment of its predictive capabilities.
 
 ## Model Training
 
@@ -119,5 +119,4 @@ Article
 https://ieeexplore.ieee.org/document/9170733
 
 ## Contributing
-
-It you'd like to contribute to this project by Chandanakumar and Kusuma
+It would like to contribute to this project by Chandanakumar and Kusuma
