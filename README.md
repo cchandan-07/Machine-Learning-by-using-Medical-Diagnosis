@@ -29,7 +29,7 @@ Before using this tool, make sure you have the following installed:
 
 - Python (version >= 3.6)
 -  numpy
--  andas
+-  Pandas
 -  matplotlib
 
 ### Installation
